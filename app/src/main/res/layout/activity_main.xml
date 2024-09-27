@@ -26,27 +26,37 @@
 
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HOMEM"
-        android:layout_margin="10dp"
-        android:id="@+id/button2"/>
-
-
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text=""
         android:id="@+id/tvTexto"
         android:textSize="20sp"
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        />
+        android:text=""
+        android:id="@+id/tvTexto"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="HOMEM" />
 
 </LinearLayout>
